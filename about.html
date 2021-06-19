@@ -33,46 +33,46 @@
 <body class="about-page">
 
   <div class="hero_area">
-    <!-- header section strats -->
-    <header class="header_section">
-      <div class="container">
-        <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
-          <a class="navbar-brand" href="#">
-            Stepper
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+ <!--Navbar-->
+ <nav class="navbar navbar-expand-sm navbar-dark bg-light">
+  <img src="./images/angaTarangaLogo.jpeg" alt="logo" class="logo-anga " >
+  <!-- Navbar brand -->
+  <a class="navbar-brand" href="#">   </a>
+  <!-- Collapse button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+    aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- <span class="navbar-toggler-icon "></span> -->
+   <img src="images/menu.png" alt="menu" height="70" width="70">
+  </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto mr-2">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About Us </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="dance.html">Dance</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="classes.html">Classes</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact us</a>
-              </li>
+  <!-- Collapsible content -->
 
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
+  <div class="collapse navbar-collapse" id="basicExampleNav">
+    <!-- Links -->
+    <ul class="navbar-nav mr-auto ">
+      <li class="nav-item active">
+        <a class="nav-link text-dark" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
 
-              <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
-            </form>
-          </div>
-        </nav>
-      </div>
-    </header>
-    <!-- end header section -->
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="profile.html">Profile</a>
+      </li>
+    
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="events.html">Events</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="registration.html">Registration</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="about.html">About Us</a>
+      </li>
+    </ul>
+  </div>
+  <!-- Collapsible content -->
+</nav>
 
   </div>
 
@@ -83,11 +83,99 @@
 
 <h1>About us </h1>
 
+  <!-- info section -->
+  <section class="info_section">
+    <div class="container ">
+      <div class="row custom_border-btm mb-3 pb-4">
+        <div class="col-md-4 info_logo">
+          <h2>
+            Anga Taranga
+          </h2>
+          <p>
+            Anga Taranga is a art space founded to establish a learning forum for students who aspire to learn and perform Kathak.
+          </p>
+        </div>
+        <div class="col-md-4 info_address">
+          <h5>
+            Address
+          </h5>
+          <p>
+            Dance Planet
+           111 Owen Road Singapore 218918
+          </p>
+          <p>
+            (+65) 98943298
+          </p>
+          <p>
+            angatarangaarts@gmail.com
+          </p>
+        </div>
+        <div class="col-md-4 info_news">
+          <img src="images/angaTarangaLogo.jpeg" alt="logo" class="img-fluid" style="max-height: 70%;">
+          <!-- <h5>
+            Newsletter
+          </h5>
+          <form action="">
+            <div>
+              <input type="email" placeholder="Enter your email">
+            </div>
+            <div>
+              <button type="submit">
+                Subscribe
+              </button>
+            </div>
+          </form> -->
+        </div>
+
+      </div>
+      <div class="info_nav ">
+        <nav class="custom_border-btm">
+          <ul>
+            <li>
+              <a href="index.html"> Home</a>
+            </li>
+            <li>
+              <a href="profile.html">Profile</a>
+            </li>
+            <li>
+              <a href="events.html">Events</a>
+            </li>
+            <li>
+              <a href="registration.html">Registration</a>
+            </li>
+            <li>
+              <a href="about.html">About Us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div>
+        <div class="info_social">
+          <div>
+            <img src="images/fb.png" alt="">
+          </div>
+          <div>
+            <img src="images/twitter.png" alt="">
+          </div>
+          <div>
+            <img src="images/linkedin.png" alt="">
+          </div>
+          <div>
+            <img src="images/insta.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- endsss info section -->
+
+
+
   <!-- footer section -->
   <section class="container-fluid footer_section">
     <p>
-      Copyright &copy; 2019 All Rights Reserved By
-      <a href="https://html.design/">html.design</a>
+      Copyright &copy; Anga Taranga
+      <!-- <a href="https://html.design/">html.design</a> -->
     </p>
   </section>
   <!-- footer section -->
