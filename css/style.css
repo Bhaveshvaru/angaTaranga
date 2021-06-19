@@ -17,6 +17,9 @@ body {
 }
 
 /*header section*/
+.nav-item{
+    text-align: right;
+}
 
 .logo-anga{
 	height: 5rem;
