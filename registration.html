@@ -102,6 +102,11 @@
        <input type="text" maxlength="10" class="form-control">
       </div>
 
+      <div class="form-group" >
+        <label for="inputDate">Date of Birth</label> <br>
+        <input class="dob" id="datepickerfrom" name="datepickerfrom" width="250" type="date" required />
+      </div>
+
       <button class="btn btn-danger"> 
         Submit
       </button>
@@ -184,7 +189,7 @@
               <img src="images/twitter.png" alt="">
             </div>
             <div>
-              <img src="images/linkedin.png" alt="">
+              <!-- <img src="images/linkedin.png" alt=""> -->
             </div>
             <div>
               <img src="images/insta.png" alt="">
@@ -207,6 +212,8 @@
     <!-- footer section -->
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script>$('#inputDate').datepicker({
+    });</script>
 
 
 
